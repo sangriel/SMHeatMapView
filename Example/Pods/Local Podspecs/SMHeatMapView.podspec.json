@@ -1,0 +1,22 @@
+{
+  "name": "SMHeatMapView",
+  "version": "0.1.0",
+  "summary": "A short description of SMHeatMapView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sangriel/SMHeatMapView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sangriel": "sangriel3@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sangriel/SMHeatMapView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SMHeatMapView/Classes/**/*"
+}

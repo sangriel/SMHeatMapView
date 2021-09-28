@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FD6D6D9569690AA28A37C8E2790F334 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D4DD393F43CC86B6A658D7534CD5E72 /* SMHeatMapView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AD0F960D8140F7C52E5FDEAF188DA6 /* SMHeatMapView-dummy.m */; };
+		5F16E1D7B283219D1EFD733C31DD3F31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5FF9DC390DBE23E305DA8F75E1F40B52 /* SMHeatMapView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1867047C80426B629CE9B6A0B55646 /* SMHeatMapView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BDD8B49F9AA1B15BF9CDC36A8C1FA2E /* Pods-SMHeatMapView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 592B4B5FFA7E27EB149D527271DAA4C5 /* Pods-SMHeatMapView_Example-dummy.m */; };
+		ADFCBEB2B98424F66FECF6190666F817 /* Pods-SMHeatMapView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B0081746B3828F13A6210570CA5364 /* Pods-SMHeatMapView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE945DBF593D1611EDBA33D7E2CFD93F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B0B8790063F449B7E292D54AE20B0419 /* Pods-SMHeatMapView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F44B5AB330672779C8C1544B09288102 /* Pods-SMHeatMapView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B239AF58A6018E6E2CA8E04477990BAF /* SMHeatMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235A2A0C082F2EC59695E08DDB3015A7 /* SMHeatMapView.swift */; };
+		E7DE08DA316F5F5EE5ECE3C39AC43EDD /* Pods-SMHeatMapView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 509E61E5C35D392CA984C08ADD39B03E /* Pods-SMHeatMapView_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		014DB09FE75FD46C56FFB4EBC67E8573 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2C2354B68735E7CEA30479F2F61BECF;
+			remoteInfo = "Pods-SMHeatMapView_Example";
+		};
+		8EDFBE3BC7F42C7DE8DEA7AA678D78E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4099FE1F43CE9BEB68B2CAD4D3DF68B;
+			remoteInfo = SMHeatMapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		087C5EC48F5CC35CF160323DFC3ECEB7 /* SMHeatMapView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SMHeatMapView.modulemap; sourceTree = "<group>"; };
+		1505B0CB32ED794FFAAFACD621EC3C55 /* SMHeatMapView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMHeatMapView.debug.xcconfig; sourceTree = "<group>"; };
+		1B1867047C80426B629CE9B6A0B55646 /* SMHeatMapView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMHeatMapView-umbrella.h"; sourceTree = "<group>"; };
+		235A2A0C082F2EC59695E08DDB3015A7 /* SMHeatMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SMHeatMapView.swift; path = SMHeatMapView/Classes/SMHeatMapView.swift; sourceTree = "<group>"; };
+		2D50DE8EF7F63E0BB5569159AFA5C17D /* Pods-SMHeatMapView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMHeatMapView_Example.modulemap"; sourceTree = "<group>"; };
+		2F7CC6BECECE4D3AD2C8D4FEAB156E66 /* Pods-SMHeatMapView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMHeatMapView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		34AD0F960D8140F7C52E5FDEAF188DA6 /* SMHeatMapView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMHeatMapView-dummy.m"; sourceTree = "<group>"; };
+		371A7E5D7749D615FFB7AEB049D2A064 /* Pods_SMHeatMapView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMHeatMapView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0F460DA4FDE82850B4AC07D65C8BC3 /* Pods-SMHeatMapView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMHeatMapView_Example-Info.plist"; sourceTree = "<group>"; };
+		4576F995E61C7A4D223F55C5E74F10EF /* Pods-SMHeatMapView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMHeatMapView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		509E61E5C35D392CA984C08ADD39B03E /* Pods-SMHeatMapView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMHeatMapView_Tests-dummy.m"; sourceTree = "<group>"; };
+		53B0081746B3828F13A6210570CA5364 /* Pods-SMHeatMapView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMHeatMapView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		592B4B5FFA7E27EB149D527271DAA4C5 /* Pods-SMHeatMapView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMHeatMapView_Example-dummy.m"; sourceTree = "<group>"; };
+		5F95F1BA979726E52BA6126BEAC5BE46 /* Pods-SMHeatMapView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMHeatMapView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8375A24E9D27657D668FF71553678248 /* SMHeatMapView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMHeatMapView.release.xcconfig; sourceTree = "<group>"; };
+		840215AB124359166015582BDBFD5569 /* Pods-SMHeatMapView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMHeatMapView_Tests-Info.plist"; sourceTree = "<group>"; };
+		875B7435FA30BF8B29A2C803E9F735BC /* Pods-SMHeatMapView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMHeatMapView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7C7CE5583F1E3462A98CB60FE9C9289 /* Pods-SMHeatMapView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SMHeatMapView_Tests.modulemap"; sourceTree = "<group>"; };
+		A9F1A620C4320157AC9638E18FFD1160 /* SMHeatMapView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMHeatMapView-prefix.pch"; sourceTree = "<group>"; };
+		B0F02DD768FC7C7E427FEA1FBE1BC037 /* Pods-SMHeatMapView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMHeatMapView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B538AD0E7759BE5C7C335A0D7E512C29 /* Pods-SMHeatMapView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMHeatMapView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BA808159F7AD850E0B29980A78AAF8DC /* Pods-SMHeatMapView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMHeatMapView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2515FDF46A7E81BB77E253391B40C4F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C654E5A5728308FDC6D494CB741764C9 /* SMHeatMapView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SMHeatMapView-Info.plist"; sourceTree = "<group>"; };
+		C6CC32D9B325DF31D565A8E366309548 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D334911F874EE424B02E6829880DA72E /* SMHeatMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SMHeatMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0443E3B7C4227298038B9FF03FDAA21 /* SMHeatMapView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SMHeatMapView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4A3EF0EF7DC69B332ED17410FB932EB /* Pods_SMHeatMapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SMHeatMapView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43B1B4C902292514E9B6B3CA0CAF4E8 /* Pods-SMHeatMapView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMHeatMapView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F44B5AB330672779C8C1544B09288102 /* Pods-SMHeatMapView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMHeatMapView_Example-umbrella.h"; sourceTree = "<group>"; };
+		FD271262294C6A23BA0B988EBDC1D2CF /* Pods-SMHeatMapView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMHeatMapView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81DC731EA96DF25EE39CA5C8E9ADD651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F16E1D7B283219D1EFD733C31DD3F31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F12AA8192B830F5DCAF6B8FD2686C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD6D6D9569690AA28A37C8E2790F334 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4D0E0D1D0B39E2DCCBFF31358D4E10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE945DBF593D1611EDBA33D7E2CFD93F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F33A543D311581C1C7CF9F7B58770B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				087C5EC48F5CC35CF160323DFC3ECEB7 /* SMHeatMapView.modulemap */,
+				34AD0F960D8140F7C52E5FDEAF188DA6 /* SMHeatMapView-dummy.m */,
+				C654E5A5728308FDC6D494CB741764C9 /* SMHeatMapView-Info.plist */,
+				A9F1A620C4320157AC9638E18FFD1160 /* SMHeatMapView-prefix.pch */,
+				1B1867047C80426B629CE9B6A0B55646 /* SMHeatMapView-umbrella.h */,
+				1505B0CB32ED794FFAAFACD621EC3C55 /* SMHeatMapView.debug.xcconfig */,
+				8375A24E9D27657D668FF71553678248 /* SMHeatMapView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SMHeatMapView";
+			sourceTree = "<group>";
+		};
+		4A842AC5E938CD35FBCB1F397A976DB9 /* Pods-SMHeatMapView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2D50DE8EF7F63E0BB5569159AFA5C17D /* Pods-SMHeatMapView_Example.modulemap */,
+				875B7435FA30BF8B29A2C803E9F735BC /* Pods-SMHeatMapView_Example-acknowledgements.markdown */,
+				4576F995E61C7A4D223F55C5E74F10EF /* Pods-SMHeatMapView_Example-acknowledgements.plist */,
+				592B4B5FFA7E27EB149D527271DAA4C5 /* Pods-SMHeatMapView_Example-dummy.m */,
+				F43B1B4C902292514E9B6B3CA0CAF4E8 /* Pods-SMHeatMapView_Example-frameworks.sh */,
+				3F0F460DA4FDE82850B4AC07D65C8BC3 /* Pods-SMHeatMapView_Example-Info.plist */,
+				F44B5AB330672779C8C1544B09288102 /* Pods-SMHeatMapView_Example-umbrella.h */,
+				B0F02DD768FC7C7E427FEA1FBE1BC037 /* Pods-SMHeatMapView_Example.debug.xcconfig */,
+				5F95F1BA979726E52BA6126BEAC5BE46 /* Pods-SMHeatMapView_Example.release.xcconfig */,
+			);
+			name = "Pods-SMHeatMapView_Example";
+			path = "Target Support Files/Pods-SMHeatMapView_Example";
+			sourceTree = "<group>";
+		};
+		4EF1ED8EBC9A39237BAB59747B840D1F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A842AC5E938CD35FBCB1F397A976DB9 /* Pods-SMHeatMapView_Example */,
+				8D16EA07E9B20BFC7ABF3876EAFFB342 /* Pods-SMHeatMapView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		62CCAF93BAE577D6D242805623076FBB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3FFE6D32488AA7C3FC7662C4E9278C7 /* SMHeatMapView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8D16EA07E9B20BFC7ABF3876EAFFB342 /* Pods-SMHeatMapView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7CE5583F1E3462A98CB60FE9C9289 /* Pods-SMHeatMapView_Tests.modulemap */,
+				BA808159F7AD850E0B29980A78AAF8DC /* Pods-SMHeatMapView_Tests-acknowledgements.markdown */,
+				FD271262294C6A23BA0B988EBDC1D2CF /* Pods-SMHeatMapView_Tests-acknowledgements.plist */,
+				509E61E5C35D392CA984C08ADD39B03E /* Pods-SMHeatMapView_Tests-dummy.m */,
+				840215AB124359166015582BDBFD5569 /* Pods-SMHeatMapView_Tests-Info.plist */,
+				53B0081746B3828F13A6210570CA5364 /* Pods-SMHeatMapView_Tests-umbrella.h */,
+				B538AD0E7759BE5C7C335A0D7E512C29 /* Pods-SMHeatMapView_Tests.debug.xcconfig */,
+				2F7CC6BECECE4D3AD2C8D4FEAB156E66 /* Pods-SMHeatMapView_Tests.release.xcconfig */,
+			);
+			name = "Pods-SMHeatMapView_Tests";
+			path = "Target Support Files/Pods-SMHeatMapView_Tests";
+			sourceTree = "<group>";
+		};
+		AE40CB4B7186BC75D3A8DFCC178B6648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				371A7E5D7749D615FFB7AEB049D2A064 /* Pods_SMHeatMapView_Example.framework */,
+				E4A3EF0EF7DC69B332ED17410FB932EB /* Pods_SMHeatMapView_Tests.framework */,
+				D334911F874EE424B02E6829880DA72E /* SMHeatMapView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5CF7CCF6A75DADAB59B31E637B5DACF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C2515FDF46A7E81BB77E253391B40C4F /* LICENSE */,
+				C6CC32D9B325DF31D565A8E366309548 /* README.md */,
+				E0443E3B7C4227298038B9FF03FDAA21 /* SMHeatMapView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				62CCAF93BAE577D6D242805623076FBB /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AE40CB4B7186BC75D3A8DFCC178B6648 /* Products */,
+				4EF1ED8EBC9A39237BAB59747B840D1F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3FFE6D32488AA7C3FC7662C4E9278C7 /* SMHeatMapView */ = {
+			isa = PBXGroup;
+			children = (
+				235A2A0C082F2EC59695E08DDB3015A7 /* SMHeatMapView.swift */,
+				C5CF7CCF6A75DADAB59B31E637B5DACF /* Pod */,
+				46F33A543D311581C1C7CF9F7B58770B /* Support Files */,
+			);
+			name = SMHeatMapView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20C20339CAE0675FCB7326E1B5C7FD83 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF9DC390DBE23E305DA8F75E1F40B52 /* SMHeatMapView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C85A25A33AB78BB79BDECE69B07BB79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFCBEB2B98424F66FECF6190666F817 /* Pods-SMHeatMapView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1066927F9513DA428ADB026111DE73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0B8790063F449B7E292D54AE20B0419 /* Pods-SMHeatMapView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9F7B4357A2E0B214247450C81804324F /* Pods-SMHeatMapView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31E0A14EC499688A7A6916C79A20E168 /* Build configuration list for PBXNativeTarget "Pods-SMHeatMapView_Tests" */;
+			buildPhases = (
+				8C85A25A33AB78BB79BDECE69B07BB79 /* Headers */,
+				134756D95E7467037BB6BB6B5F8597F7 /* Sources */,
+				81DC731EA96DF25EE39CA5C8E9ADD651 /* Frameworks */,
+				9BA96AF05D77797AFEA003FBA2C38DA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE64FBFFF07F51D0028F6E0B4960D13B /* PBXTargetDependency */,
+			);
+			name = "Pods-SMHeatMapView_Tests";
+			productName = "Pods-SMHeatMapView_Tests";
+			productReference = E4A3EF0EF7DC69B332ED17410FB932EB /* Pods_SMHeatMapView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2C2354B68735E7CEA30479F2F61BECF /* Pods-SMHeatMapView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A96B590B78F58884B66F5F3C908DF236 /* Build configuration list for PBXNativeTarget "Pods-SMHeatMapView_Example" */;
+			buildPhases = (
+				AF1066927F9513DA428ADB026111DE73 /* Headers */,
+				EBBFB429DB24F0792AAA1882BB26119E /* Sources */,
+				B16F12AA8192B830F5DCAF6B8FD2686C /* Frameworks */,
+				508B4705049B55A8545F56B1612BE27E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C671826E803790AF2A27EFDEF0B40A7E /* PBXTargetDependency */,
+			);
+			name = "Pods-SMHeatMapView_Example";
+			productName = "Pods-SMHeatMapView_Example";
+			productReference = 371A7E5D7749D615FFB7AEB049D2A064 /* Pods_SMHeatMapView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4099FE1F43CE9BEB68B2CAD4D3DF68B /* SMHeatMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB17863F5A8BF220567DB6688C5BC995 /* Build configuration list for PBXNativeTarget "SMHeatMapView" */;
+			buildPhases = (
+				20C20339CAE0675FCB7326E1B5C7FD83 /* Headers */,
+				A2F63F5708D8D546318AD3A4AB65B60D /* Sources */,
+				F4D0E0D1D0B39E2DCCBFF31358D4E10F /* Frameworks */,
+				1EBA6FB87F5402FE551D9711573EA03D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMHeatMapView;
+			productName = SMHeatMapView;
+			productReference = D334911F874EE424B02E6829880DA72E /* SMHeatMapView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AE40CB4B7186BC75D3A8DFCC178B6648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2C2354B68735E7CEA30479F2F61BECF /* Pods-SMHeatMapView_Example */,
+				9F7B4357A2E0B214247450C81804324F /* Pods-SMHeatMapView_Tests */,
+				E4099FE1F43CE9BEB68B2CAD4D3DF68B /* SMHeatMapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EBA6FB87F5402FE551D9711573EA03D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		508B4705049B55A8545F56B1612BE27E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BA96AF05D77797AFEA003FBA2C38DA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		134756D95E7467037BB6BB6B5F8597F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7DE08DA316F5F5EE5ECE3C39AC43EDD /* Pods-SMHeatMapView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F63F5708D8D546318AD3A4AB65B60D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B239AF58A6018E6E2CA8E04477990BAF /* SMHeatMapView.swift in Sources */,
+				5D4DD393F43CC86B6A658D7534CD5E72 /* SMHeatMapView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBFB429DB24F0792AAA1882BB26119E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BDD8B49F9AA1B15BF9CDC36A8C1FA2E /* Pods-SMHeatMapView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C671826E803790AF2A27EFDEF0B40A7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMHeatMapView;
+			target = E4099FE1F43CE9BEB68B2CAD4D3DF68B /* SMHeatMapView */;
+			targetProxy = 8EDFBE3BC7F42C7DE8DEA7AA678D78E6 /* PBXContainerItemProxy */;
+		};
+		EE64FBFFF07F51D0028F6E0B4960D13B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SMHeatMapView_Example";
+			target = B2C2354B68735E7CEA30479F2F61BECF /* Pods-SMHeatMapView_Example */;
+			targetProxy = 014DB09FE75FD46C56FFB4EBC67E8573 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0700603E37981B735AB69FA2FE3E3B8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F02DD768FC7C7E427FEA1FBE1BC037 /* Pods-SMHeatMapView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMHeatMapView_Example/Pods-SMHeatMapView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMHeatMapView_Example/Pods-SMHeatMapView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25A793B4B4F20AE558ED18ADBAABA7B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1505B0CB32ED794FFAAFACD621EC3C55 /* SMHeatMapView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SMHeatMapView/SMHeatMapView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMHeatMapView/SMHeatMapView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMHeatMapView/SMHeatMapView.modulemap";
+				PRODUCT_MODULE_NAME = SMHeatMapView;
+				PRODUCT_NAME = SMHeatMapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3EFD5D11A3A8EFB5466293E1BAEA3FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8375A24E9D27657D668FF71553678248 /* SMHeatMapView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SMHeatMapView/SMHeatMapView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMHeatMapView/SMHeatMapView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMHeatMapView/SMHeatMapView.modulemap";
+				PRODUCT_MODULE_NAME = SMHeatMapView;
+				PRODUCT_NAME = SMHeatMapView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C7F291C041BCFC73EB089B2EF4EA036 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F7CC6BECECE4D3AD2C8D4FEAB156E66 /* Pods-SMHeatMapView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMHeatMapView_Tests/Pods-SMHeatMapView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMHeatMapView_Tests/Pods-SMHeatMapView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B4A1568E8D27FD4F7A8163E7DE298B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F95F1BA979726E52BA6126BEAC5BE46 /* Pods-SMHeatMapView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMHeatMapView_Example/Pods-SMHeatMapView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMHeatMapView_Example/Pods-SMHeatMapView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C72C5C8A121BE25332D529813E93A2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B538AD0E7759BE5C7C335A0D7E512C29 /* Pods-SMHeatMapView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SMHeatMapView_Tests/Pods-SMHeatMapView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMHeatMapView_Tests/Pods-SMHeatMapView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31E0A14EC499688A7A6916C79A20E168 /* Build configuration list for PBXNativeTarget "Pods-SMHeatMapView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C72C5C8A121BE25332D529813E93A2B6 /* Debug */,
+				4C7F291C041BCFC73EB089B2EF4EA036 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A96B590B78F58884B66F5F3C908DF236 /* Build configuration list for PBXNativeTarget "Pods-SMHeatMapView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0700603E37981B735AB69FA2FE3E3B8E /* Debug */,
+				B4A1568E8D27FD4F7A8163E7DE298B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB17863F5A8BF220567DB6688C5BC995 /* Build configuration list for PBXNativeTarget "SMHeatMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A793B4B4F20AE558ED18ADBAABA7B5 /* Debug */,
+				3EFD5D11A3A8EFB5466293E1BAEA3FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
