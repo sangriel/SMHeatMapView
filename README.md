@@ -6,10 +6,48 @@
 [![Platform](https://img.shields.io/cocoapods/p/SMHeatMapView.svg?style=flat)](https://cocoapods.org/pods/SMHeatMapView)
 
 ## Example
+![Alt text](https://github.com/sangriel/SMHeatMapView/master/Readme_img/demoImag.png?
+
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Usage
+no delegates or callbacks it just return UIImage? right away
+
+```Swift
+import SMHeatMapView
+
+//processHeatmap image
+image.image = SMHeatMapView().processHeatMapImage(point: points, gridSize: CGSize(width: 200, height: 200),
+                                                  ranges: [0, 0.1, 0.25 , 0.5 ,0.75, 1],
+                                                  colors: [Color0,
+                                                           Color1,
+                                                           Color2,
+                                                           Color3,
+                                                           Color4,
+                                                           Color5
+                                                       ])
+```
+
+## WeightCustomization
+this part of code is responsible for calculating heatmap weight 
+customize as your own taste 
+```Swift
+for y in 0..<Int(gridSize.height) {
+    for x in 0..<Int(gridSize.width)  {
+        var totalWeight : CGFloat = 0
+        for innerpoints in inputs {
+            let distance = CGPoint(x: x, y: y).distance(to: innerpoints)
+            //dropout weights for distance longer than radius
+            totalWeight += max(0, (radius - distance)  )
+        }
+        //normalize weight to 0 ~ 1
+        weight[x][y] = totalWeight / CGFloat(inputs.count)
+        
+    }
+}
+```
+
 
 ## Installation
 

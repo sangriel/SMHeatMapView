@@ -18,7 +18,7 @@ struct Data : Codable {
 
 class ViewController: UIViewController {
 
-    
+    var backgroundImage = UIImageView()
     var image = UIImageView()
     
     var Color0 = UIColor.clear
@@ -32,6 +32,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.view.backgroundColor = .white
+        self.view.addSubview(backgroundImage)
+        backgroundImage.translatesAutoresizingMaskIntoConstraints = false
+        backgroundImage.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 0).isActive = true
+        backgroundImage.centerXAnchor.constraint(equalTo: self.view.centerXAnchor, constant: 0).isActive = true
+        backgroundImage.widthAnchor.constraint(equalToConstant: 200).isActive = true
+        backgroundImage.heightAnchor.constraint(equalToConstant: 200).isActive = true
+        backgroundImage.backgroundColor = .clear
+        backgroundImage.image = UIImage(named: "imgAttention")
+        backgroundImage.contentMode = .scaleAspectFill
+        
+        
         self.view.addSubview(image)
         image.translatesAutoresizingMaskIntoConstraints = false
         image.centerYAnchor.constraint(equalTo: self.view.centerYAnchor, constant: 0).isActive = true
