@@ -34,7 +34,7 @@ image.image = SMHeatMapView().processHeatMapImage(point: points,
 ```
 
 ## WeightCustomization
-this part of code is responsible for calculating heatmap weight 
+this part of code is responsible for calculating heatmap weight\n
 customize as your own taste 
 ```Swift
 for y in 0..<Int(gridSize.height) {
