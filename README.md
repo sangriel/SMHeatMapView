@@ -9,7 +9,6 @@
 ![Alt text](https://github.com/sangriel/SMHeatMapView/master/Readme_img/demoImag.png)
 =======
 ![Alt text](https://github.com/sangriel/SMHeatMapView/blob/master/Readme_img/demoImag.png)
->>>>>>> c20c7dcfec862d9950c1abf1471d0e6787b3c333
 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
