@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SMHeatMapView.svg?style=flat)](https://cocoapods.org/pods/SMHeatMapView)
 
 ## Example
-![Alt text](https://github.com/sangriel/SMHeatMapView/master/Readme_img/demoImag.png?token=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)
+![Alt text](https://github.com/sangriel/SMHeatMapView/master/Readme_img/demoImag.png)
 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
