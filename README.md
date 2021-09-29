@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SMHeatMapView.svg?style=flat)](https://cocoapods.org/pods/SMHeatMapView)
 
 ## Example
-![Alt text](https://github.com/sangriel/SMHeatMapView/master/Readme_img/demoImag.png?
+![Alt text](https://github.com/sangriel/SMHeatMapView/Readme_img/demoImag.png?
 
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -18,7 +18,8 @@ no delegates or callbacks it just return UIImage? right away
 import SMHeatMapView
 
 //processHeatmap image
-image.image = SMHeatMapView().processHeatMapImage(point: points, gridSize: CGSize(width: 200, height: 200),
+image.image = SMHeatMapView().processHeatMapImage(point: points,
+                                                  gridSize: CGSize(width: 200, height: 200),
                                                   ranges: [0, 0.1, 0.25 , 0.5 ,0.75, 1],
                                                   colors: [Color0,
                                                            Color1,
