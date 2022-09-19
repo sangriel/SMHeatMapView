@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+SMHeatMapView in Pods, no dependencies
+Pods-SMHeatMapView_Example in Pods, depends on:
+SMHeatMapView in Pods (explicit)
+Pods-SMHeatMapView_Tests in Pods, depends on:
+Pods-SMHeatMapView_Example in Pods (explicit)

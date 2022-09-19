@@ -1,0 +1,52 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e989746fb761e3cb0e6883b1c9759db2227"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98316c91b2afefb53eecef6c12ed440d09"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e983fb6a3fd92dc0ba48c74484b74973b3e"
+    }
+  ],
+  "containerPath" : "/Users/sangminhan/SMHeatMapView/Example/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/sangminhan/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/sangminhan/Library/Developer/Xcode/DerivedData/Pods-grgdztmsgrjstbfdnixhjjzkhesl/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/sangminhan/Library/Developer/Xcode/DerivedData/Pods-grgdztmsgrjstbfdnixhjjzkhesl/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}
